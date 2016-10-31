@@ -3,7 +3,7 @@ function Monster(xloc, yloc) {
   var y = yloc;
   this.position = createVector(width / 2, height / 2);
   this.velocity = createVector();
-  this.acceleration = createVector();
+  acceleration = createVector();
   this.topspeed = 10;
 
   this.move = function() {
